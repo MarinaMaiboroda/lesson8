@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	cursor: pointer;   
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+.ba-container{
+	max-width: 900px;
+	margin: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.logo{
+	display: inline-block;
+	margin-top: 5rem;
+}
+
+header{
+	background: #23232e;
+	color: #fff;
+	height: 100vh;
+	text-align: center;
+}
+
+header h1{
+	font-size: 2.5rem;
+	text-transform: uppercase;
+}
+
+header h2{
+	font-size: 1.2rem;
+	font-weight: 400;
+	max-width: 415px;
+	margin: 0 auto;
+}
+
+.font-0{
+	font-size: 0;
+}
+
+.font-0 h2{
+	font-size: 2rem;
+}
+
+.next-step{
+	display: inline-block;
+	margin: 10rem;
+	/* padding: 0.7rem; */
+	border: 1px solid #fff;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 1.5rem;
+	height: 3rem;
+	width: 3rem;
+	vertical-align: middle;
+	line-height: 3rem;
+	text-decoration: none;
+}
+
+main{
+	background: #ccc url("../img/bg.png") ; 
+}
+
+
+
